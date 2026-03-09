@@ -294,8 +294,8 @@ export default function SchoolWebsite() {
     { id: 1, title: "بدء العام الدراسي الجديد 2025-2026", excerpt: "يسرنا إعلامكم ببدء العام الدراسي الجديد مع العديد من الأنشطة والفعاليات المميزة", date: "2025-09-01", category: "أخبار" },
     { id: 2, title: "نتائج المسابقة العلمية السنوية", excerpt: "تهانينا للفائزين في المسابقة العلمية السنوية التي أقيمت الشهر الماضي", date: "2025-01-15", category: "إنجازات" },
     { id: 3, title: "افتتاح المختبرات الجديدة", excerpt: "تم افتتاح مختبرات علمية حديثة مجهزة بأحدث التقنيات", date: "2025-01-01", category: "تطوير" },
-    { id: 4, title: "ورشة عمل للأساتذة", excerpt: "ننظم ورشة عمل تطويرية للأساتذة حول أساليب التدريس الحديثة", date: "2024-12-20", category: "تدريب" },
-    { id: 5, title: "رحلة مدرسية إلى مراكش", excerpt: "قام التلاميذ برحلة ترفيهية وثقافية إلى مدينة مراكش", date: "2024-12-10", category: "أنشطة" },
+    { id: 4, title: "ورشة عمل للأساتذة", excerpt: "ننظم ورشة عمل تطويرية للأساتذة حول أساليب التدريس الحديثة", date: "2026-12-20", category: "تدريب" },
+    { id: 5, title: "رحلة مدرسية إلى مراكش", excerpt: "قام التلاميذ برحلة ترفيهية وثقافية إلى مدينة مراكش", date: "2026-12-10", category: "أنشطة" },
     { id: 6, title: "تخرج دفعة 2025", excerpt: "أقيمت مراسم تخرج دفعة 2025 في حفل رسمي بحضور أولياء الأمور", date: "2025-06-30", category: "تخرج" },
   ];
 
@@ -541,7 +541,7 @@ export default function SchoolWebsite() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800">
           <div className="flex flex-col md:flex-row items-center justify-between gap-2 text-slate-400 text-sm">
-            <p>© 2024 مدرستنا. جميع الحقوق محفوظة.</p>
+            <p>© 2026 مدرستنا. جميع الحقوق محفوظة.</p>
             <div className="flex items-center gap-4">
               <button className="hover:text-emerald-400 transition-colors">سياسة الخصوصية</button>
               <button className="hover:text-emerald-400 transition-colors">الشروط والأحكام</button>

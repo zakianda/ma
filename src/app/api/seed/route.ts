@@ -15,9 +15,9 @@ export async function GET() {
     // Create Academic Year
     const academicYear = await db.academicYear.create({
       data: {
-        name: "2024-2025",
-        startDate: new Date("2024-09-01"),
-        endDate: new Date("2025-06-30"),
+        name: "2026-2026",
+        startDate: new Date("2026-09-01"),
+        endDate: new Date("2026-06-30"),
         isActive: true
       }
     });
@@ -500,7 +500,7 @@ export async function GET() {
         data: {
           name: "الرسوم الدراسية - الفصل الأول",
           amount: 3000,
-          dueDate: new Date("2024-10-15"),
+          dueDate: new Date("2026-10-15"),
           feeType: "tuition",
           academicYearId: academicYear.id
         }
@@ -509,7 +509,7 @@ export async function GET() {
         data: {
           name: "الرسوم الدراسية - الفصل الثاني",
           amount: 3000,
-          dueDate: new Date("2025-02-15"),
+          dueDate: new Date("2026-02-15"),
           feeType: "tuition",
           academicYearId: academicYear.id
         }
@@ -518,7 +518,7 @@ export async function GET() {
         data: {
           name: "الكتب الدراسية",
           amount: 500,
-          dueDate: new Date("2024-09-15"),
+          dueDate: new Date("2026-09-15"),
           feeType: "books",
           academicYearId: academicYear.id
         }
@@ -527,7 +527,7 @@ export async function GET() {
         data: {
           name: "النشاط اللاصفية",
           amount: 200,
-          dueDate: new Date("2024-09-30"),
+          dueDate: new Date("2026-09-30"),
           feeType: "activities",
           academicYearId: academicYear.id
         }
@@ -554,7 +554,7 @@ export async function GET() {
       db.announcement.create({
         data: {
           title: "بدء الفصل الدراسي الأول",
-          content: "يسرنا إعلامكم ببدء الفصل الدراسي الأول للعام الدراسي 2024-2025. نتمنى لجميع طلابنا عاماً دراسياً موفقاً.",
+          content: "يسرنا إعلامكم ببدء الفصل الدراسي الأول للعام الدراسي 2026-2026. نتمنى لجميع طلابنا عاماً دراسياً موفقاً.",
           priority: "high",
           targetRole: "all",
           authorId: principal.id,
@@ -564,7 +564,7 @@ export async function GET() {
       db.announcement.create({
         data: {
           title: "اجتماع أولياء الأمور",
-          content: "ندعو جميع أولياء الأمور لحضور الاجتماع السنوي يوم الخميس الموافق 15/10/2024 الساعة 4 عصراً.",
+          content: "ندعو جميع أولياء الأمور لحضور الاجتماع السنوي يوم الخميس الموافق 15/10/2026 الساعة 4 عصراً.",
           priority: "normal",
           targetRole: "parents",
           authorId: admins[0].id,
